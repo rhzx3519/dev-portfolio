@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  front-end:
+    image: "rhzx3519/dev-portfolio" 
+    ports:
+      - "80:80"
+    restart: always
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
