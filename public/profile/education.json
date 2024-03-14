@@ -1,19 +1,19 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "April 2018 - Sept. 2014",
+            "cardTitle": "Computer Science",
+            "cardSubtitle":"Zhengjiang University, Hangzhou",
+            "cardDetailedText": "",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/Zhejiang.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Sept. 2007 - June 2011",
+            "cardTitle": "Computer Science",
+            "cardSubtitle":"Zhengjiang A&F University, Hangzhou",
+            "cardDetailedText": ""
         }
     ]
 }

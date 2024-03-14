@@ -4,42 +4,41 @@
      
             "title": "Languages & Databases",
             "items" : [
-     
+                {
+                    "icon": "images/skills/go.png",
+                    "title": "Go"
+                },
                 {
                     "icon": "images/skills/java.png",
                     "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
                 },
                 {
                     "icon": "images/skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDB"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/gin.png",
+                    "title": "Gin"
                 },
                 {
                     "icon": "images/skills/react.png",
                     "title": "React"
                 },
                 {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
+                    "icon": "images/skills/spring-boot.png",
+                    "title": "SpringBoot"
                 }
             ]
         },
@@ -47,7 +46,7 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
+                    "icon": "images/skills/kubernetes.png",
                     "title": "Android Studio"
                 },
                 {
