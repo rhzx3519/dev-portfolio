@@ -3,9 +3,10 @@ export const lightTheme = {
   color: '#121212',
   accentColor: '#3D84C6',
   chronoTheme: {
-    cardBgColor: 'white',
+    cardBgColor: '#ffe57f',
     cardForeColor: 'black',
     titleColor: 'white',
+    titleColorActive: 'white',
   },
   timelineLineColor: '#ccc',
   cardBackground: '#fff',
@@ -28,7 +29,8 @@ export const darkTheme = {
   chronoTheme: {
     cardBgColor: '#1B1B1B',
     cardForeColor: '#eee',
-    titleColor: 'black',
+    titleColor: 'white',
+    titleColorActive: 'white',
   },
   timelineLineColor: '#444',
   cardBackground: '#060606',

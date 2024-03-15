@@ -47,8 +47,9 @@ function Education(props) {
           <div style={{ width }} className="section-content-container">
             <Container>
               <Chrono
+                disableToolbar
                 hideControls
-                allowDynamicUpdate
+                textOverlay
                 useReadMore={false}
                 items={data.education}
                 cardHeight={250}
@@ -59,6 +60,7 @@ function Education(props) {
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
                   titleColor: theme.chronoTheme.titleColor,
+                  titleColorActive: theme.chronoTheme.titleColorActive,
                 }}
               >
                 <div className="chrono-icons">

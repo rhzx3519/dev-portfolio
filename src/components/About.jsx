@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Container, Col, Row } from 'react-bootstrap';
+import Grid from '@mui/material/Grid';
+import { Box, Container } from '@mui/material';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import Header from './Header';
@@ -8,6 +9,9 @@ import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
+  introContainer: {
+    display: 'flex',
+  },
   introTextContainer: {
     margin: 10,
     flexDirection: 'column',
@@ -15,14 +19,12 @@ const styles = {
     textAlign: 'left',
     fontSize: '1.2em',
     fontWeight: 500,
-    width: '50%',
   },
   introImageContainer: {
     margin: 10,
     justifyContent: 'center',
     alignItems: 'center',
     display: 'flex',
-    with: '50%',
   },
 };
 
@@ -49,18 +51,24 @@ function About(props) {
     <>
       <Header title={header} />
       <div className="section-content-container">
-        <Container>
+        <Container maxWidth="lg">
           {data
             ? (
               <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
-                  </Col>
-                  <Col style={styles.introImageContainer} xs={5}>
-                    <img style={{ maxWidth: '100%' }} src={data?.imageSource} alt="profile" />
-                  </Col>
-                </Row>
+                <Box sx={{ flexGrow: 1 }}>
+                  <Grid container spacing={2}>
+                    <Grid xs={12} md={6}>
+                      <div style={styles.introTextContainer}>
+                        {parseIntro(data.about)}
+                      </div>
+                    </Grid>
+                    <Grid xs={12} md={6}>
+                      <div style={styles.introImageContainer}>
+                        <img style={{ maxWidth: '100%' }} src={data?.imageSource} alt="profile" />
+                      </div>
+                    </Grid>
+                  </Grid>
+                </Box>
               </Fade>
             )
             : <FallbackSpinner />}
