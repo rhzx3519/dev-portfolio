@@ -1,33 +1,23 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Backend Software Developer",
+            "subtitle": "Hangzhou Youhu Technology, Hangzhou, China",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Financial algorithm order system development",
+                "Kubernetes cloud platform development"
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "Apr.2020 - Feb.2023"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Intermediate Development Engineer",
+            "subtitle": "Netease Hangzhou Network Co.Ltd, Hangzhou",
+            "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "Racing mobile game app development"
             ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "Apr.2018 - Apr.2020"
         }
     ]
 }
