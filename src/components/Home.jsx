@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
+import { Icon } from '@iconify/react';
 import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
@@ -35,7 +36,9 @@ function Home() {
 
   return data ? (
     <Fade>
+
       <div style={styles.mainContainer}>
+        <Icon icon="la:laptop-code" width="200" height="200" />
         <h1 style={styles.nameStyle}>{data?.name}</h1>
         <div style={{ flexDirection: 'row' }}>
           <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
