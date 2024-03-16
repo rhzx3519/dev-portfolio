@@ -47,6 +47,7 @@ function Education(props) {
           <div style={{ width }} className="section-content-container">
             <Container>
               <Chrono
+                slideShow
                 disableToolbar
                 hideControls
                 textOverlay
