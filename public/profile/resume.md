@@ -1,8 +1,0 @@
-# EDUCATION
----
-
-# SKILLS
----
-
-# WORK EXPERIENCES
----

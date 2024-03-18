@@ -31,7 +31,8 @@
         },
         {
             "title": "Resume",
-            "href": "/resume"
+            "href": "profile/CV.pdf",
+            "type": "link"
         }
     ]
 
