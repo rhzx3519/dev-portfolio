@@ -88,6 +88,23 @@
                 "System Design",
                 "Design Pattern"
             ]
+        },
+        {
+            "image": "images/projects/Ultralytics-YOLOv8.png",
+            "title": "Object Detection with Webcam",
+            "bodyText": "- Integrate yolo detection model with webcam.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rhzx3519/roboflow-webcam"
+                }
+            ],
+            "tags" : [
+                "AI",
+                "YOLO",
+                "Roboflow",
+                "Webcam"
+            ]
         }
     ]
 }
