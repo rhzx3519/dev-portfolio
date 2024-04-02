@@ -1,7 +1,7 @@
 {
     "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with",
     "skills": [{
-     
+
             "title": "Languages & Databases",
             "items" : [
                 {
@@ -29,12 +29,16 @@
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/gin.png",
-                    "title": "Gin"
-                },
-                {
                     "icon": "images/skills/react.png",
                     "title": "React"
+                },
+                {
+                    "icon": "images/skills/react-native.png",
+                    "title": "React Native"
+                },
+                {
+                    "icon": "images/skills/gin.png",
+                    "title": "Gin"
                 },
                 {
                     "icon": "images/skills/spring-boot.png",
