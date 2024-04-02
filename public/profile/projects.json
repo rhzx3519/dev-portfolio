@@ -105,6 +105,22 @@
                 "Roboflow",
                 "Webcam"
             ]
+        },
+        {
+            "image": "images/projects/react-native-jobs.jpg",
+            "title": "Mobile Job APP",
+            "bodyText": "- Based on React Native.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rhzx3519/react-native-jobs"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "JavaScript",
+                "Frontend"
+            ]
         }
     ]
 }
